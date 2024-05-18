@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+        <title>Bumbus</title>
+    <body>
+        <head>
+            <h1 style="text-align: center;">BEHOLD THE VOYAGER 1</h1>
+        </head>
+        <p style="text-align: center;">
+            <img  id="Voyager Gif" Src="voyager-1s-launch-anniversary.gif">
+        </p>
+        <audio autoplay controls>
+            <source src="https://ia802705.us.archive.org/34/items/deluxe-johnny-b-goode/01%20Johnny%20B.%20Goode.mp3" type="audio/mp3">
+        </audio>
+        <p>
+            <h3 style="text-align: center;"> For it will outlive us all and be the last living proof of humanities existence.</h3>
+            <h3 style="text-align: center;"> Hell Yeah</h3>
+        </p>
+    </body>
+</htmL>
