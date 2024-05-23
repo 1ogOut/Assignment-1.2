@@ -1,19 +1,31 @@
 <!DOCTYPE html>
+<!--5/23/2024-->
 <html>
         <title>Bumbus</title>
     <body>
-        <head>
-            <h1 style="text-align: center;">BEHOLD THE VOYAGER 1</h1>
-        </head>
-        <p style="text-align: center;">
+        <header>
+            <link rel="stylesheet" href="main.css">
+            <h1>BEHOLD THE VOYAGER 1</h1>
+        </header>
+        <nav>
+            <h2>
+                <a href="./Index-1.html">Home</a><br>
+                <a href="Boards.html">Boards</a><br>
+            </h2>
+        </nav>
+        <p>
             <img  id="Voyager Gif" Src="voyager-1s-launch-anniversary.gif">
         </p>
-        <audio autoplay controls>
+        <audio autoplay>
             <source src="https://ia802705.us.archive.org/34/items/deluxe-johnny-b-goode/01%20Johnny%20B.%20Goode.mp3" type="audio/mp3">
         </audio>
         <p>
-            <h3 style="text-align: center;"> For it will outlive us all and be the last living proof of humanities existence.</h3>
-            <h3 style="text-align: center;"> Hell Yeah</h3>
+            <h3> For it will outlive us all and be the last living proof of humanities existence.</h3>
+            <h3> Hell Yeah</h3>
         </p>
+        <footer>
+            Joshua Wooten<br>
+            University of Advancing Technology<br>
+            2625 W Basaeline Rd. Tempe. AZ <br>
     </body>
 </htmL>
