@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <!--5/23/2024-->
+<!--7/13/24, addding assingment 7.1 to add buttons. -->
 <html>
         <title>Bumbus</title>
     <body>
@@ -9,8 +10,10 @@
         </header>
         <nav>
             <h2>
-                <a href="./Index-1.html">Home</a><br>
+                <a href="game.html">Game</a><br>
                 <a href="Boards.html">Boards</a><br>
+                <a href="strings.html">Strings</a><br>
+
             </h2>
         </nav>
         <p>
@@ -23,9 +26,16 @@
             <h3> For it will outlive us all and be the last living proof of humanities existence.</h3>
             <h3> Hell Yeah</h3>
         </p>
+
+        <marquee id="myMarquee" direction="right"><img id="Miluk" src="260px-Voyager_spacecraft_model.png"></marquee>
+        <br>
+        <script src="StartStop.js"></script>
+        <button id="startButton" onclick="startFun();" class="button">Start</button>
+        <button id="stopButton" onclick="stopFun();" class="button">Stop</button>
+        </body>
         <footer>
             Joshua Wooten<br>
             University of Advancing Technology<br>
             2625 W Basaeline Rd. Tempe. AZ <br>
-    </body>
+        </footer>
 </htmL>
