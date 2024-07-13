@@ -43,3 +43,38 @@ function checkCreds() {
         document.getElementById("loginStatus").innerHTML = "credentials approved";
     }
 }
+
+
+//making the palindrom checker work, 
+function checkPalin() {
+    console.log("checkPalin() started");
+    //record text as string
+    var entStr
+    entStr = document.getElementById("palinInput").value;
+    console.log("entStr is: " ,entStr);
+    //remove spaces
+    var entStrNoSpace
+    entStrNoSpace = entStr.split(" ").join("")
+    console.log("entStr with no spaces is: " + entStrNoSpace);
+    //reverse string text
+    var revStr;
+    const revArray =[];
+    var length = entStrNoSpace.length - 1;
+    console.log("string length is " + length);
+    for(var i = length; i >= 0; i--){
+        revArray.push(entStrNoSpace[i]);
+    //convert the array from reversing to a string
+    revStr = revArray.join("");
+    console.log("reversed is " + revStr);
+    //compare the 2
+    var equal=0;
+    equal = (entStrNoSpace == revStr);
+    console.log("the entry and reversed being equal is " + equal);
+    //write status
+    if(equal == true){
+        document.getElementById("palinStatus").innerHTML = entStr + " is a palindrome!"
+    } else{
+        document.getElementById("palinStatus").innerHTML = entStr + " is a loser non-palindrome."
+    }
+    }
+    }
