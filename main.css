@@ -42,3 +42,7 @@ header{
                -32px 32px #f9a825,
                -36px 36px #ff5722;
 }
+
+audio {
+    filter: brightness(25%) contrast(100%);
+}
